@@ -1,6 +1,7 @@
 # node-aws-cli
 
-FROM node:latest
+FROM node:12.22.1
+
 
 MAINTAINER pgowar
 
