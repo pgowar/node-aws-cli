@@ -1,2 +1,2 @@
 # node-aws-cli
-Node + aws cli
+Node + AWS cli
