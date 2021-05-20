@@ -1,6 +1,5 @@
-FROM node:12.22.1-alpine
+FROM node:12.22.1
 MAINTAINER pgowar
 
-RUN apk update && apk add python3-dev py-pip zip 
+RUN apt-get update && apt-get install -y python-dev python-pip zip libcurl4-openssl-dev
 RUN pip install awscli
-
