@@ -4,4 +4,4 @@ MAINTAINER pgowar
 RUN apt-get update && apt-get install -y python-dev python-pip zip libcurl4-openssl-dev
 RUN pip install awscli
 RUN npm install phantomjs-prebuilt --phantomjs_cdnurl=https://bitbucket.org/ariya/phantomjs/downloads
-RUN npm install lerna@^4.0.0
+
